@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position: absolute;
+             top: 50%;
+            left: 50%;
+            transform:translate(-50%,-50%);
+            width: 70%;
+            height: 90%;
+            text-align: center;
+            vertical-align: middle;
+            background-image: url(base.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            animation-name: ssj;
+            animation-duration:200s;
+
+        }
+        @keyframes ssj {
+            0%  {background-image: url(base.jpg);}
+            15%  {background-image: url(ssj1.jpg);}
+            30%  {background-image: url(ssj2.jpg);}
+            45%  {background-image: url(ssj3.jpg);}
+            69%  {background-image: url(ssj4.jpg);}
+            80%  {background-image: url(ssjgod.jpg);}
+            100%  {background-image: url(ssjblue.jpg);}
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <audio autoplay loop controls>
+        <source src="https://raw.githubusercontent.com/GatuChan/kokun/main/song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div>
+        <p>TODOS LAS TRANSOFRMASIONES DE KOKUN</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+    <div><img src="" id="clock"></div>
+    <script>
+
+        // Recojo la fecha de hoy
+        var date = new Date();
+
+        // Recojo la hora (a partir de la fecha de antes)
+        var hour = date.getHours();
+
+        // Si la hora es igual o mayor que 19 se aplicará esto:
+        if (hour >= 19){ // <-- Cambia la hora para comprobar que funciona
+            document.body.style.background = "black"
+            document.body.style.color= "white"
+            document.getElementsByTagName("h1")[0].innerHTML = "QUE TARDE ES"
+        }
+
+        // En cualquier otro caso:
+        else{
+            document.body.style.background = "white"
+            document.body.style.color= "black"
+            document.getElementsByTagName("h1")[0].innerHTML = "QUE PRONTO ES"
+        }
+
+
+
+
+
+
+
+
+
+
+        // Escribo la fecha y la hora para que quede boniko
+        document.getElementsByTagName("h2")[0].innerHTML = "<b>Hoy:</b> "+ date + "<br>";
+        document.getElementsByTagName("h3")[0].innerHTML = "<b>Hora:</b> "+ hour + "<br>";
+        
+        // Cambio la foto dependiendo de la hora
+        window.onload = function() {
+        document.getElementById("clock").src = "reloj/"+ hour + ".png";
+
+};
+
+
+    </script>
+
+</body>
+</html>

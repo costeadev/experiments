@@ -1,0 +1,30 @@
+body{
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {background-image: url(1.jpg);}
+    25% {background-image: url(2.jpg);}
+    50% {background-image: url(3.jpg);}
+    75% {background-image: url(4.jpg);}
+    100% {background-image: url(5.jpg);}
+}
+h1{
+    font-family: Comic Sans MS;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 80pt;
+}
+div{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15%;
+    border: 4px black solid;
+    border-radius: 30pt;
+}
+.opacity{
+    background: white;
+}

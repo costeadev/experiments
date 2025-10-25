@@ -1,0 +1,635 @@
+
+@media (min-width:600px){
+    /**Fonts */
+
+@font-face {
+    font-family: Body;
+    src: url(fonts/MYRIADPRO-REGULAR.woff);
+}
+
+/**ID */
+#title{
+    color:black;
+}
+#quien{
+    color:black;
+}
+#donde{
+    color:black;
+}
+#pedidos{
+    color:black;
+}
+#atencion{
+    color:black;
+}
+/**General stuff */
+
+body{
+    font-family: Body;
+    margin: 0%;
+    overflow-x:hidden;
+}
+h1{
+    font-size:40pt;
+}
+h2{
+    margin:5%;
+    font-size: 30pt;
+    line-height: 160%;
+}
+hr{
+   border: 2px solid black;
+}
+
+form{
+    display:flexbox;
+    margin-bottom: 1%;
+    text-align: left;
+}
+.form{
+        display:flexbox;
+        margin-bottom: 1%;
+        text-align: left;
+        margin-left:30%;
+}
+input{
+    margin-left:20%;
+    align-items: left;
+    font-family: body;
+    border-radius: 30px;
+    padding: 1%;
+    text-align: center;
+    color:black;
+    margin: auto;
+    display:flexbox;
+}
+option{
+    font-family: body;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 1%;
+    color:black;
+    margin: auto;
+    display:flexbox;
+}
+select{
+    font-family: body;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 1%;
+    color:black;
+    margin-left:16%;
+    margin-top:10%;
+    display:flex;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    width:fit-content;
+    color:black;
+}
+/**title */
+
+.divtit{
+    display: inline-flexbox;
+    border-bottom:2px solid black;
+    clear:both;
+    overflow:auto;
+    width:100%;
+    background: url(images/wood.jpg);
+}
+
+.logo{
+    width:200px;
+    height:200px;
+    display: flex;
+}
+.divlogo{
+    width:fit-content;
+    margin-left: 2%;
+    float:left;
+}
+.subtit{
+    float:left;
+    margin-right:3%;
+    margin-top:3.5%;
+    margin-left:5%;
+    background-color: white;
+    padding: 1%;
+    border-radius: 30px;
+    font-size: 24pt;
+    border: 3px solid black;
+}
+/**quien soy */
+.blanco{
+    background-color: white;
+    width: fit-content;
+    margin:auto;
+    margin-top: 4%;
+    border-radius: 30px;
+    padding:2%;
+    margin-bottom:3%;
+    border: 3px solid black;
+    
+}
+.blanco2{
+    background-color: white;
+    display: flex;
+    width: fit-content;
+    border-radius: 30px;
+    padding:2%;
+    margin-bottom:3%;
+    margin:auto;
+    border: 3px solid black;
+    
+}
+.wallpaperquiensoy{
+    background: url(images/wallpaper.jpg);
+    size:100%;
+    margin-bottom:0px;
+    border-bottom:2px black solid;
+    display: flex;
+}
+
+.bonifacio{
+    height: 738px;
+    width:30%;
+    margin-bottom:0px;
+    margin-left:5%;
+    display: flex;
+}
+.presentation{
+    background-color: wheat;
+    display: flexbox;
+    text-align: center;
+    width: 50%;
+    margin-right: 9%;
+    margin-top: 2.5%;
+    margin-bottom:2.5%;
+    border-radius: 30px;
+    margin-left:9%;
+    border-bottom:5px black solid;
+    border: 2px solid black;
+}
+
+/**Donde está la panaderia */
+
+.wallpaperdonde{
+    display: flex;
+    margin-top: 0px;
+    background: url(images/ajalvir.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+}
+.titdonde{
+    background-color: wheat;
+    padding: 1%;
+    display: flexbox;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+.contdonde{
+    margin:auto;
+    text-align: center;
+    display: flexbox;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.donde{
+    background-color: white;
+    padding: 2%;
+    margin-top: 15%;
+    border-radius: 30px;
+    border: 2px solid black;
+    
+}
+/**pedidos */
+.pedidoswallpaper{
+    background: url(images/boxwallpaper.jpg);
+    background-size: cover;
+    display:flex;
+    padding-bottom: 3%;
+    padding-top:3%;
+    border-bottom: 2px solid black;
+}
+.tarjeta{
+    font-family: body;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 1%;
+    color:black;
+    margin:auto;
+    display: flex;
+    margin-top: 3%;
+}
+.pedidoscont{
+    background-color: wheat;
+        border-radius: 30px;
+        display:flexbox;
+        width:50%;
+        margin: auto;
+        margin-top: 5%;
+        text-align: center;
+        border-bottom: 4px solid black;
+        border: 2px solid black;
+}
+.button{
+    margin-bottom: 5%;
+    margin-top:1%;
+    padding: 1%;
+    padding-left:2%;
+    padding-right:2%;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-family: body;
+    font-size: 1.2em;
+    width:fit-content;
+    margin:auto;
+    color:black;
+    background-color: white;
+}
+.nom{
+    margin-left: 100px;
+
+}
+.dir{
+    margin-left: 169px;
+
+}
+.tel{
+    margin-left: 86px;
+
+}
+.nomt{
+    margin-left: 100px;
+
+}
+.num{
+    margin-left: 101px;
+   
+}
+.cad{
+    margin-left: 90px;
+
+}
+.cvc{
+    margin-left: 174px;
+
+}
+
+/**Atencion al cliente */
+
+.atencionwallpaper{
+    background: url(images/grandma.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px black solid;
+}
+.atencioncont{
+    background-color: white;
+    width: fit-content;
+    margin-left:5%;
+    margin-top:5%;
+    margin-bottom:30%;
+    display: flex;
+    width:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**movil */
+}
+@media (max-width:600px){
+    /**Fonts */
+
+@font-face {
+    font-family: Body;
+    src: url(fonts/MYRIADPRO-REGULAR.woff);
+}
+
+/**ID */
+#title{
+    color:black;
+}
+#quien{
+    color:black;
+}
+#donde{
+    color:black;
+}
+#pedidos{
+    color:black;
+}
+#atencion{
+    color:black;
+}
+/**General stuff */
+
+body{
+    font-family: Body;
+    margin: 0%;
+    overflow-x:hidden;
+}
+h1{
+    font-size:40pt;
+}
+h2{
+    margin:5%;
+}
+hr{
+   border: 2px solid black;
+}
+
+form{
+    display:flexbox;
+    margin-bottom: 1%;
+    text-align: left;
+}
+.form{
+        display:flexbox;
+        margin-bottom: 1%;
+        text-align: left;
+        margin-left:30%;
+}
+input{
+    margin-left:20%;
+    align-items: left;
+    font-family: body;
+    border-radius: 30px;
+    padding: 1%;
+    text-align: center;
+    color:black;
+    margin: auto;
+    display:flexbox;
+}
+option{
+    font-family: body;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 1%;
+    color:black;
+    margin: auto;
+    display:flexbox;
+}
+select{
+    font-family: body;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 1%;
+    color:black;
+    margin-left:16%;
+    margin-top:10%;
+    display:flex;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    width:fit-content;
+    color:black;
+}
+/**title */
+
+.divtit{
+    display: inline-flexbox;
+    border-bottom:2px solid black;
+    clear:both;
+    overflow:auto;
+    width:100%;
+    background: url(images/wood.jpg);
+}
+
+.logo{
+    width:200px;
+    height:200px;
+    display: flex;
+}
+.divlogo{
+    width:fit-content;
+    margin:auto;
+    margin-bottom: 10%;
+}
+.subtit{
+    background-color: white;
+    border-radius: 30px;
+    font-size: 24pt;
+    border: 3px solid black;
+    text-align:center;
+    width:fit-content;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    margin:auto;
+    margin-bottom:10%;
+}
+/**quien soy */
+.blanco{
+    background-color: white;
+    width: 85%;
+    text-align: center;
+    margin:auto;
+    display: flex;
+    margin-top: 4%;
+    border-radius: 30px;
+    padding:2%;
+    margin-bottom:3%;
+    border: 3px solid black;
+    
+}
+.blanco2{
+    background-color: white;
+    display: flex;
+    text-align: center;
+    width: fit-content;
+    border-radius: 30px;
+    padding:2%;
+    margin-bottom:3%;
+    margin:auto;
+    border: 3px solid black;
+    
+}
+.wallpaperquiensoy{
+    background: url(images/wallpaper.jpg);
+    size:100%;
+    margin-bottom:0px;
+    border-bottom:2px black solid;
+    display: block;
+}
+
+.bonifacio{
+    width:80%;
+    margin-bottom:0;
+    padding-bottom: 0;
+    margin:auto;
+    display: flex;
+}
+.presentation{
+    background-color: wheat;
+    display: block;
+    text-align: center;
+    width:90%;
+    border-radius: 30px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:10%;
+    border-bottom:5px black solid;
+    border: 2px solid black;
+}
+
+/**Donde está la panaderia */
+
+.wallpaperdonde{
+    display: flex;
+    margin-top: 0px;
+    background: url(images/ajalvir.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+}
+.titdonde{
+    background-color: wheat;
+    padding: 1%;
+    display: flexbox;
+    font-size:30pt;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+.contdonde{
+    margin:auto;
+    text-align: center;
+    display: flexbox;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 10pt;
+}
+.donde{
+    background-color: white;
+    padding: 2%;
+    margin-top: 15%;
+    border-radius: 30px;
+    border: 2px solid black;
+    
+}
+/**pedidos */
+.pedidoswallpaper{
+    background: url(images/boxwallpaper.jpg);
+    background-size: cover;
+    display:flex;
+    padding-bottom: 3%;
+    padding-top:3%;
+    border-bottom: 2px solid black;
+}
+.tarjeta{
+    font-family: body;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 1%;
+    color:black;
+    margin:auto;
+    display: flex;
+    margin-top: 3%;
+}
+.pedidoscont{
+    background-color: wheat;
+        border-radius: 30px;
+        display:flexbox;
+        width:80%;
+        margin: auto;
+        margin-top: 5%;
+        text-align: center;
+        border-bottom: 4px solid black;
+        border: 2px solid black;
+}
+.button{
+    margin-bottom: 5%;
+    margin-top:1%;
+    padding: 1%;
+    padding-left:2%;
+    padding-right:2%;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-family: body;
+    font-size: 1.2em;
+    width:fit-content;
+    margin:auto;
+    color:black;
+    background-color: white;
+}
+.nom{
+    margin-left: auto;
+
+}
+.dir{
+    margin-left: auto;
+
+}
+.tel{
+    margin-left: auto;
+
+}
+.nomt{
+    margin-left: auto;
+
+}
+.num{
+    margin-left: auto;
+   
+}
+.cad{
+    margin-left: auto;
+
+}
+.cvc{
+    margin-left: auto;
+
+}
+
+/**Atencion al cliente */
+
+.atencionwallpaper{
+    background: url(images/grandma.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100%;
+    height: 100%;
+    border-bottom: 2px black solid;
+}
+.atencioncont{
+    background-color: white;
+    width: fit-content;
+    font-size:1pt;
+    margin-left:66%;
+    margin-top:5%;
+    margin-bottom:30%;
+    display: block;
+    width:30%;
+}
+.hola{
+    font-size: 13pt;
+}
+}

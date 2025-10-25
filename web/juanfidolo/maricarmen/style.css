@@ -1,0 +1,21 @@
+
+
+
+    body {
+        background-image: url(https://i.pinimg.com/236x/04/02/f9/0402f9cebec8108fc2ebdf7d1c71b65c.jpg);
+    color:red;
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+p{
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    font-size: 90pt;
+    background-color: white;
+}
+.jaja{
+    color:blue;
+}

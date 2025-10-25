@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+<div id="calculadora">
+    <h1>CALCULADORA PRO</h1>
+    <input id="display" readonly>
+<div id="numbers">
+    <button onclick="Display('1')">1</button>
+    <button onclick="Display('2')">2</button>
+    <button onclick="Display('3')">3</button>
+    <button onclick="Display(' + ')">+</button>
+    <button onclick="Display(' -')">-</button>
+    <br>
+    <button onclick="Display('4')">4</button>
+    <button onclick="Display('5')">5</button>
+    <button onclick="Display('6')">6</button>
+    <button onclick="Display(' * ')">*</button>
+    <button onclick="Display(' / ')">/</button>
+    <br>
+    <button onclick="Display('7')">7</button>
+    <button onclick="Display('8')">8</button>
+    <button onclick="Display('9')">9</button>
+    <button onclick="Display('0')">0</button>
+    <button onclick="Display('.')">.</button>
+    <br><br>
+    <button onclick="calculate()">CALC</button>
+    <button onclick="reset()">RESET</button>
+    
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

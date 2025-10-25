@@ -1,0 +1,70 @@
+
+body{
+    font-family: Comic Sans MS;
+    font-size: 12pt;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom:0px;
+    background-color: black;
+}
+.foto{
+    background-image: url(ajalvir2.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0px;
+    border: 1px black solid;
+    margin-right:auto;
+    border: 1px black solid;
+}
+h1{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 60pt;
+    color:black;
+    background-color: white;
+    padding: 30px;
+    width:fit-content;
+    border-radius: 30px;
+}
+h2{
+    padding:0px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:100px;
+    background-color: white;
+    padding: 30px;
+    width:fit-content;
+    border-radius: 30px;
+    font-weight: bold;
+}
+H3{
+    text-align:center;
+    margin-top:0px;
+    background: #666666 fixed;
+    color:white;
+    padding:10px;
+    font-size:16pt;
+    border-bottom: 5px black solid;
+    border-top: 5px black solid;
+    margin-right:auto;
+}
+p{
+    font-weight: bold;
+    background-color: white;
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 10px;
+}
+img{
+   margin-bottom:0px;
+   border-bottom: 5px black solid;
+   margin-right:auto;
+}
+.blankito{
+    background-color: white;
+}

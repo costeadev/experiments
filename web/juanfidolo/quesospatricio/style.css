@@ -1,0 +1,124 @@
+body,html{
+    margin:0;
+    height: 100%;
+    width: 100%;
+    font-family: Comic Sans MS;
+}
+input{
+    width:400px;
+    height:30px;
+    font-family: Comic Sans MS;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+input:hover{
+    background-color: rgb(207, 213, 219);
+}
+/**NAV BAR*/
+
+.nav_bar{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.bigsearch_bar{
+    display: flex;
+    width:40%;
+    height: 100px;
+    margin-left:20%;
+    text-align: center;
+}
+.search_bar{
+    width: fit-content;
+    margin: auto;
+}
+.frase{
+    height: 100px;
+    width:20%;
+    margin-left: auto;
+    margin-right:20px;
+}
+
+/**SUB NAV BAR */
+.sub_nav_bar{
+    background-color: #0f4f20;
+    display: flex;
+    border-bottom: 1px solid black;
+    height:40px;
+    text-align: center;
+}
+.menu{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 16pt;
+    display: inline-block;
+    width:200px;
+    height:37px;
+    vertical-align: middle;
+    margin: auto;
+    padding-top:3px;
+}
+.menu:hover{
+    text-decoration: underline;
+    background-color: rgb(207, 213, 219);
+
+}
+/**HOME */
+
+/**CONTACTO */
+.conttext{
+    display: flex;
+    width:60%;
+    height:777px;
+    float:left;
+}
+.text{
+    font-size: 26pt;
+    margin: auto;
+}
+.contbienvenido{
+    width:39%;
+    float:right;
+}
+.bienvenido{
+    margin-top:210px;
+    width:83.3%;
+    text-align: center;
+    font-size: 24pt;
+    margin-left:40px;
+}
+.bienvenido2{
+    margin-top: 20px;
+    width:83.3%;
+    text-align: center;
+    font-size: 24pt;
+    margin-left:40px;
+}
+.pat{
+    width:700px;
+}
+.españa:hover{
+    transition: 0.5s;
+    background-image: url(images/españa.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+/**PEDIDOS */
+.quesos{
+    margin: auto;
+    margin-top:4%;
+    width: 75%;
+    height: 75%;
+    text-align: center;
+}
+.queso{
+    display: inline-block;
+    width:33%;
+    height: 50%;
+}
+.quesoprecio{
+    font-weight: bold;
+}

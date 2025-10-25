@@ -1,0 +1,22 @@
+body{
+    background: url(matar.gif) no-repeat center center scroll;
+   background-size: cover;
+}
+div{
+    background: url(dance.gif);
+    width:fit-content;
+    margin: auto;
+}
+P{
+    background-color: white;
+    width: 18.4%;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    font-family: Comic Sans MS;
+    background: url(kitty.avif);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:0px;
+}
